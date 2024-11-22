@@ -1,0 +1,84 @@
+h1 {
+    font-family: Noto Serif; 
+    font-size: 60px; 
+    font-style: Italic;
+    text-align: center;
+    margin-top: 10px;
+    padding: 340px;
+    background-image: url('https://i.pinimg.com/1200x/aa/b9/65/aab96555192849b33c0ed2b27bcff146.jpg');
+    background-size: cover;
+}
+h3 {
+    font-family: Noto Serif;
+    font-size: 23px;
+    margin-bottom: -5px;
+}
+.titlepicture{
+    float: left;
+    width: 8px;
+    height: 27px;
+    margin-right: 6px;
+}
+.Button {
+    width: 230px;
+    height: 30px;
+    background-color: transparent;
+    border: 0px;
+    margin-bottom: -10px;
+}
+.ButtonSearch {
+    border: 0px;
+    background-color: transparent;
+}
+p {
+    font-family: Noto Serif;
+    font-weight: 20;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 100px;
+}
+.Theloaicuon {
+    width: 1300px;
+    overflow-x: scroll;
+    display: flex;
+    white-space: nowrap;
+}
+.Cactheloai{
+    width: 180px; 
+    height: 335px;
+    margin-top: 0px;
+    margin-right: 110px;
+    display: inline-block;
+}
+.Cactheloai_images {
+    width: 280px; 
+    height: 290px;
+}
+.article1-2 {
+    width: 630px;
+    height: 400px;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: inline-block;
+} 
+.article3-4-5 {
+    width: 415px;
+    height: 200px;
+    margin-left: 10px;
+    display: inline-block;
+}
+.article_title {
+    display: inline-block;
+    margin-right: 135px;
+    margin-bottom: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
+.note {
+    margin-left: 400px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    font-style: italic;
+    font-size: 15px;
+    font-family: 'Times New Roman';
+}

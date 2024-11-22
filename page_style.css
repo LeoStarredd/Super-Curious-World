@@ -1,0 +1,47 @@
+.Button {
+    width: 230px;
+    height: 30px;
+    background-color: transparent;
+    border: 0px;
+    margin-bottom: -10px;
+}
+.ButtonSearch {
+    border: 0px;
+    background-color: transparent;
+}
+.title_article {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    height: 400px;
+    width: 1310px;
+    filter: brightness(70%);
+}
+p {
+    font-family: Helvetica;
+    margin-left: 250px;
+    margin-right: 250px;
+    line-height: 50px;
+}
+h1 {
+    margin-top: 60px; 
+    margin-bottom: 60px;
+    font-size: 70px;
+}
+.source {
+    font-style: italic;
+    font-size: 15px;
+    font-family: 'Times New Roman';
+    margin-top: -50px;
+    margin-bottom: -20px;
+}
+.note {
+    margin-left: 400px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    font-style: italic;
+    font-size: 15px;
+    font-family: 'Times New Roman';
+}
+h5 {
+    font-size: 20px;
+}

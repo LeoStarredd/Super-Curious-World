@@ -1,0 +1,50 @@
+.Button {
+    width: 230px;
+    height: 30px;
+    background-color: transparent;
+    border: 0px;
+    margin-bottom: -10px;
+}
+.ButtonSearch {
+    border: 0px;
+    background-color: transparent;
+}
+h1 {
+    font-family: Noto Serif; 
+    font-size: 40px; 
+    text-align: left;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.Note {
+    margin-top: 10px;
+    font-style: italic;
+    font-size: 15px;
+}
+.left_img {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+    float: left;
+    width: 600px;
+    height: 400px;
+}
+.right_p {
+    margin-right: 50px;
+    font-family: Noto Serif; 
+    font-size: 25px; 
+}
+.right_img {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 50px;
+    float: right;
+    width: 600px;
+    height: 400px;
+}
+.left_p {
+    margin-top: 375px;
+    margin-left: 50px;
+    font-family: Noto Serif; 
+    font-size: 25px; 
+}
