@@ -13,7 +13,7 @@
     margin-top: 10px;
     margin-bottom: 0px;
     height: 400px;
-    width: 1310px;
+    width: 1300px;
     filter: brightness(70%);
 }
 p {
@@ -36,12 +36,17 @@ h1 {
 }
 .note {
     margin-left: 400px;
-    margin-top: 50px;
-    margin-bottom: 0px;
+    margin-top: -20px;
+    margin-bottom: -20px;
     font-style: italic;
     font-size: 15px;
     font-family: 'Times New Roman';
 }
 h5 {
     font-size: 20px;
+    color: black; 
+    margin-bottom: 30px;
+}
+img {
+    width: 800px;
 }
