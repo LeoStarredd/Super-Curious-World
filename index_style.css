@@ -1,10 +1,35 @@
-h1 {
-    font-family: Noto Serif; 
+body {
+    background-color: black;
     color: antiquewhite;
-    font-size: 60px; 
+}
+.Button {
+    width: 230px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    margin-bottom: 0px;
+}
+.ButtonSearch {
+    background-color: lightblue;
+    color: gray;
+    border: none;
+}
+#ButtonSearch1 {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+#ButtonSearch2 {
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+h1 {
+    font-family: 'Times New Roman'; 
+    color: antiquewhite;
+    font-size: 50px; 
     font-style: Italic;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 7px;
     padding: 340px;
     background-image: url('https://i.pinimg.com/1200x/aa/b9/65/aab96555192849b33c0ed2b27bcff146.jpg');
     background-size: cover;
@@ -19,17 +44,6 @@ h3 {
     width: 8px;
     height: 27px;
     margin-right: 6px;
-}
-.Button {
-    width: 230px;
-    height: 30px;
-    background-color: transparent;
-    border: 0px;
-    margin-bottom: -10px;
-}
-.ButtonSearch {
-    border: 0px;
-    background-color: transparent;
 }
 p {
     font-family: Noto Serif;
@@ -71,9 +85,10 @@ p {
 .article_title {
     display: inline-block;
     margin-right: 135px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: lighter;
+    font-size: 20px;
 }
 .note {
     margin-left: 400px;

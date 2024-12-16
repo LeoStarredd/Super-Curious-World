@@ -1,0 +1,71 @@
+body {
+    background-color: black;
+    color: antiquewhite;
+}
+.Button {
+    width: 230px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    margin-bottom: -10px;
+}
+.ButtonSearch {
+    background-color: lightblue;
+    color: gray;
+    border: none;
+}
+#ButtonSearch1 {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+#ButtonSearch2 {
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+h1 {
+    font-family: Noto Serif; 
+    font-size: 40px; 
+    text-align: left;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.Note {
+    margin-top: -20px;
+    font-style: italic;
+    font-size: 18px;
+}
+.left_img {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    float: left;
+    width: 600px;
+    height: 400px;
+}
+.right_p {
+    margin-right: -20px;
+    font-family: Noto Serif; 
+    font-size: 35px; 
+}
+.right_img {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 50px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    float: right;
+    width: 600px;
+    height: 400px;
+}
+.left_p {
+    margin-left: -20px;
+    font-family: Noto Serif; 
+    font-size: 35px; 
+}

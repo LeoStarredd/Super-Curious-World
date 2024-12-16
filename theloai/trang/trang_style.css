@@ -1,19 +1,34 @@
+body {
+    background-color: black;
+    color: antiquewhite;
+
+}
 .Button {
     width: 230px;
     height: 30px;
-    background-color: transparent;
-    border: 0px;
+    background-color: black;
+    color: antiquewhite;
+    border: none;
     margin-bottom: -10px;
 }
 .ButtonSearch {
-    border: 0px;
-    background-color: transparent;
+    background-color: lightblue;
+    color: gray;
+    border: none;
+}
+#ButtonSearch1 {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+#ButtonSearch2 {
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
 }
 .title_article {
     margin-top: 10px;
     margin-bottom: 0px;
-    height: 400px;
-    width: 1300px;
+    height: 500px;
+    width: 1330px;
     filter: brightness(70%);
 }
 p {
@@ -42,11 +57,14 @@ h1 {
     font-size: 15px;
     font-family: 'Times New Roman';
 }
-h5 {
-    font-size: 20px;
-    color: black; 
-    margin-bottom: 30px;
-}
 img {
     width: 800px;
+}
+.ButtonNote {
+    background-color: transparent;
+    color: antiquewhite;
+    border: none;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 18px;
 }
