@@ -24,14 +24,15 @@ body {
     border-bottom-right-radius: 30px;
 }
 h1 {
-    font-family: 'Times New Roman'; 
+    font-family: Noto Serif; 
     color: antiquewhite;
+    line-height: 150%;
     font-size: 50px; 
     font-style: Italic;
     text-align: center;
     margin-top: 7px;
     padding: 340px;
-    background-image: url('https://i.pinimg.com/1200x/aa/b9/65/aab96555192849b33c0ed2b27bcff146.jpg');
+    background-image: url('https://i.pinimg.com/736x/c1/1f/4a/c11f4ad3dc23b3e440e3b2ab32383d3c.jpg');
     background-size: cover;
 }
 h3 {
