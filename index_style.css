@@ -1,0 +1,195 @@
+html, body {
+    background-color: black;
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+a:hover {
+    color: lightblue;
+    cursor: pointer;
+}
+
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header nav .headerLeft {
+    display: flex;
+    align-items: center;
+    gap: 10%;
+}
+header nav .searchBar {
+    display: flex;
+    align-items: center;
+    border: 1.5px solid white;
+    border-radius: 15px;
+}
+header nav .searchBar input {
+    border: 0;
+    background-color: transparent;
+    color: white;
+}
+
+
+#homepageTitle {
+    padding: 30%;
+    background: linear-gradient(to bottom, transparent, black),
+                url('https://www.pixelstalk.net/wp-content/uploads/images6/Night-5K-Wallpaper-HD.jpg');
+    background-size: cover;
+    margin-top: -10%;
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 110%;
+    line-height: 280%;
+    justify-self: center;
+    text-wrap: nowrap;
+}
+
+
+.slider {
+    margin-top: -10%;
+    overflow: hidden; /* Ẩn các ảnh nằm ngoài khung nhìn */
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+.topicSlider {
+    display: flex;
+    gap: 10%;
+    animation: move-horizontal 30s linear infinite; 
+}
+@keyframes move-horizontal {
+    from {
+        transform: translateX(110%); /* Vị trí ban đầu */
+    }
+    
+    to {
+        transform: translateX(-260%);
+    }
+}
+.topicSlider:hover {
+    animation-play-state: paused;
+}
+.topicSlider img {
+    width: 250px;
+    height: 320px;
+    border-radius: 10%;
+}
+.topicSlider img:hover {
+    width: 330px;
+    height: 400px;
+    border-radius: 10%;
+}
+
+
+.topicTitle {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.topicTitle h3 {
+    text-transform: uppercase;
+}
+.topicTitle::before {
+    content: '';
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAA1BMVEVVmf9AjA9fAAAASElEQVR4nO3BgQAAAADDoPlTX+AIVQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwDcaiAAFXD1ujAAAAAElFTkSuQmCC');
+    width: 8px;
+    height: 33px;
+}
+
+
+article main {
+    margin-top: -1%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: space-evenly;
+}
+article main a {
+    height: 200px;
+    width: 350px;
+    padding: 30px;
+    align-content: end;
+    justify-content: start;
+    text-wrap: nowrap;
+}
+article main a:hover {
+    padding: 50px;
+}
+
+
+#topicArticle1 {background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0, 0, 0, 1)),
+                            url('https://cdn.tgdd.vn/Files/2022/10/31/1482395/y-nghia-cac-con-so-trong-phong-thuy-la-gi-giai-ma-cac-con-so-202210311103291803.jpg');}
+#topicArticle2 {background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0, 0, 0, 1)),
+                            url('https://i.pinimg.com/736x/1d/2f/c0/1d2fc0525f68df1898cdfaa6b6aab7c0.jpg');}
+#topicArticle3 {background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0, 0, 0, 1)),
+                            url('https://cms.lichngaytot.com/medias/standard/2020/7/14/con-so-quan-trong-trong-doi-nguoi.jpg');}
+
+#topicArticle4 {background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0, 0, 0, 1)),
+                            url('https://i.pinimg.com/736x/c1/12/4a/c1124ae20ac3a1025ed738906708ea8f.jpg');}
+#topicArticle5 {background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0, 0, 0, 1)),
+                            url('https://i.pinimg.com/1200x/de/26/2b/de262b482b50c57611b99e667eeeb01e.jpg');}
+#topicArticle6 {background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0, 0, 0, 1)),
+                            url('https://bizweb.dktcdn.net/100/461/219/files/hinh-thanh-sam-set.jpg?v=1727061024136');}
+
+#topicArticle7 {background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0, 0, 0, 1)),
+                            url('https://iv.vnecdn.net/vnexpress/images/web/2019/05/03/olympus-mons-nui-lua-lon-nhat-he-mat-troi-1556853471.jpg');}
+#topicArticle8 {background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0, 0, 0, 1)),
+                            url('https://i1-vnexpress.vnecdn.net/2024/08/16/VNE-Moon-4354-1723779579.jpg?w=680&h=0&q=100&dpr=1&fit=crop&s=TLapwmm6tcVitkhTIgtt1g');}
+#topicArticle9 {background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0, 0, 0, 1)),
+                            url('https://i.pinimg.com/736x/60/59/7c/60597c2a62f7256e01558d77f9a39e9a.jpg');}
+
+#topicArticle10 {background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0, 0, 0, 1)),
+                             url('https://photo.znews.vn/w860/Uploaded/spluaaa/2022_08_04/220726123020_05_electronic_waste_explainer_full_169.jpg');}
+#topicArticle11 {background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0, 0, 0, 1)),
+                            url('https://cdn.tgdd.vn/Files/2023/04/04/1523140/cuocgoi_didong_2-040423-161051-800-resize.jpg');}
+#topicArticle12 {background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0, 0, 0, 1)),
+                            url('https://icdn.dantri.com.vn/2017/nuoc-tieu-1-1498103481551.jpg');}
+
+#topicArticle13 {background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0, 0, 0, 1)),
+                             url('https://i.pinimg.com/736x/9e/ea/7b/9eea7b8b3ef5d9291786ddd0aa428d48.jpg');}
+#topicArticle14 {background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0, 0, 0, 1)),
+                            url('https://i.pinimg.com/736x/39/62/14/3962148acfac4857ddafc3c783c099f0.jpg');}
+#topicArticle15 {background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0, 0, 0, 1)),
+                            url('https://i.pinimg.com/736x/60/59/7c/60597c2a62f7256e01558d77f9a39e9a.jpg');}
+
+#topicArticle16 {background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0, 0, 0, 1)),
+                            url('https://i.ex-cdn.com/vntravellive.com/files/news/2022/08/26/71-be-mat-trai-dat-ra-sao-neu-thieu-ca-map-171412.jpg');}
+#topicArticle17 {background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0, 0, 0, 1)),
+                            url('https://i.pinimg.com/736x/7a/08/20/7a08208af970d07f0dbbe405cc96ef68.jpg');}
+#topicArticle18 {background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0, 0, 0, 1)),
+                            url('https://genk.mediacdn.vn/139269124445442048/2023/8/18/01-sleeping-whale-pod-1692337243085286317407-1692353515891-16923535162951530727807.jpg');}
+
+#topicArticle19 {background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0, 0, 0, 1)),
+                            url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSg1DeQSldTLhTz9r7mMzu-_RE4QETVB9GHFQ&s');}
+#topicArticle20 {background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0, 0, 0, 1)),
+                            url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT67ioP95lCYLBsPq406VSJvMrZlm7mKKzH8w&s');}
+#topicArticle21 {background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0, 0, 0, 1)),
+                            url('https://cdn.hswstatic.com/gif/maps.jpg');}
+
+#topicArticle22 {background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0, 0, 0, 1)),
+                            url('https://vyctravel.com/libs/upload/ckfinder/images/Nam_Phi/n%C3%BAi%20b%C3%A0n%20nam%20phi.jpg');}
+#topicArticle23 {background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0, 0, 0, 1)),
+                            url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQQAAACCCAMAAACXSEZJAAAAZlBMVEUAAADnABMjnkb////sABOaAAwXaC4koki1tbXKysr6+vrW1tZoaGjw8PC5ubklJSVMTEx0dHQxMTEPDw9YWFhdXV3e3t4ICAiYmJhvb2/Dw8OCgoKNjY1AQEAgICCvr6/n5+eioqKMAceFAAACJUlEQVR4nO3ayVqDMABF4QxqGUqLpXaytPX9X1JycayNS6Jw/o2f4iIcoSRBY2FN6gH8BUSwRBAiWCIIESwRhAiWCEIESwQhgiWCEMESQYhgiSBEsEQQIlgiCBEsEYQIlghCBEsEIYIlghChY+5wZ+5xbwAAAAAAwH/StOun+pR6FCnV2abwwSV/TD2WRB43vldUVdfinHo8CSzLvkB5bPV9fc7niYc0uHl/H+Tt159NrMK+vw+uznqrT8hVigEl8KQG1fLmwUU98GjSOOleKG43MItq2NEkkutCiP3BM78YdDRp9DfDS+xw5v3nrKEZZEQJ6OEYv+a7CL6/U7bzw26oQQ1spQvhGD0eImy6AvtDEb6O004RttHjIYJfHIpfPjv/P90NZfz42X8Y74qiCqcXXSksny8fDcb7lGh0fs83j62O5edl4C/DDmxIy1iEdrfx37Q/f2csiBAU8SfkZG4HPhgDrRx+mQVN4hHZT5bixzVZykY+WWLaHLCA6qx1KURPbxpL6bdNldg0YBqbKqZhe8287y0Vt/eVJ7LR+r7lfj15blRlKlvu3bXQv3wpv/7V5+OdG0VcvYZbrc/5PvWYEth/fyEb3X0euTp7WyxVk301L6fwTxqjXSEAAAAAADBSD3gwM8yMgyOCI4IQwRFBiOCIIERwRBAiOCIIERwRhAiOCEIERwQhgiOCEMERQYjgiCBEcEQQIjgiCBEcEYQIjgjyCpCSh3Yl4UIHAAAAAElFTkSuQmCC');}
+#topicArticle24 {background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0, 0, 0, 1)),
+                            url('https://vcdn1-dulich.vnecdn.net/2019/06/07/2-1559885163.jpg?w=460&h=0&q=100&dpr=2&fit=crop&s=cAr26BHw3o0-woJqLoOtOw');}
+
+#topicArticle25 {background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0, 0, 0, 1)),
+                            url('https://bna.1cdn.vn/2017/06/14/uploaded-dataimages-201706-original-_images1926348_111.jpg');}
+#topicArticle26 {background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0, 0, 0, 1)),
+                            url('https://www.simplypsychology.org/wp-content/uploads/boring-relationship.jpeg');}
+#topicArticle27 {background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0, 0, 0, 1)),
+                            url('https://sohanews.sohacdn.com/160588918557773824/2024/4/25/ocelllatedturkey-1714017228687794454618-1714019603545-1714019603685440445612.png');}
+
+
+footer i {
+    position: fixed; /* Giữ nguyên vị trí khi cuộn */
+    right: 20px; 
+    bottom: 20px; 
+    color: whitesmoke;
+}

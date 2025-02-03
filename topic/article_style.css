@@ -1,0 +1,97 @@
+html, body {
+    background-color: black;
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+a:hover {
+    color: lightblue;
+    cursor: pointer;
+}
+
+
+
+header {
+    margin-top: -2%;
+    height: 710px;
+    text-wrap: nowrap;
+
+}
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+
+}
+header nav h1 {
+    font-size: 35px;
+}
+header nav .searchBar {
+    display: flex;
+    align-items: center;
+    border: 1.5px solid white;
+    border-radius: 15px;
+}
+header nav .searchBar input {
+    border: 0;
+    background-color: transparent;
+    color: white;
+}
+header section img {
+    margin-top: -0.5%;
+    width: 1282px;
+    height: 550px;
+    mask-image: linear-gradient(to top, 
+                transparent 0%, 
+                black 50%, 
+                transparent 100%);
+}
+header section h1 {
+    margin-top: -10px       ;
+    align-self: end;
+    justify-self: center;
+
+    font-size: 50px;
+}
+
+
+main {
+    display: flexbox;
+    justify-self: center;
+    width: 950px;
+
+    justify-items: center;
+    align-items: center;
+    text-wrap: wrap;
+    line-height: 185%;
+}
+main img {
+    justify-self: center;
+    width: 950px;
+}
+main figure figcaption {
+    margin-top: -10px;
+    font-size: 15px;
+}
+
+
+
+footer p {
+    display: flex;
+    justify-self: center;
+
+    font-size: 15px;
+    font-style: italic;
+}
+footer i {
+    position: fixed; /* Giữ nguyên vị trí khi cuộn */
+    right: 20px; 
+    bottom: 20px; 
+    cursor: pointer; /* Biểu tượng con trỏ khi rê chuột vào */
+    color: whitesmoke;
+}
